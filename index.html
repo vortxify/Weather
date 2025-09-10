@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div id="weather-card" class="weather-card cursor">Loading...</div>
+        <button id="refresh-btn">Refresh Weather</button>
+        <p id="error-msg" class="error"></p>
+        <div class="toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="dark-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span>Dark Mode</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
